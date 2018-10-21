@@ -112,10 +112,13 @@ var server = http.createServer(function(req,res) {
 													console.log('error:', err);	
 												}
 												else{
-													console.log(response.output["text"][0]);
+													console.log(response.output["generic"][1]["options"]);
 													var html = "<script>";
-													html += "document.getElementById(\"response\").value = \""+response.output["text"][0]+"\";";
+													html += "document.getElementById(\"response\").value = \""+response.output["text"][0]+" ";
+													html += response.output["generic"][1]["title"];
+													html += response.output["generic"][1]["options"][0]["label"]+", "+response.output["generic"][1]["options"][1]["label"]+"\";";
 													html += "document.getElementById(\"chatbox\").value = \""+data["chatbox"]+"\";</script>";
+													console.log(html);
 													res.write(html);
 
 												}
@@ -135,5 +138,7 @@ server.listen(port, host, function() {console.log(`Listening at http://${ host }
 function read(res, filename, end) {
 	fs.readFile(filename, 'utf8', function(err, data){
 		res.write(data);
+		//if (end) res.end();
 	});
 }
+

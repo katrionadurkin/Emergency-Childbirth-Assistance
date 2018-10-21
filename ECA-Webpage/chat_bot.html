@@ -1,11 +1,31 @@
 <body>
+<div class="flex">
+  <div>
+    <h1>Aphaea : The Chatbot</h1>
+  </div>
+  <!--
+  <form action = "/chatbot" method="post" id="myfirstform">
+  <div id="response" name = "response">
+  </div>
+  <div class="input">
+  <input type="text" id="chatbox" name = "chatbox" placeholder="Enter your response" required/>
+  </div>
+</div>
+</form>
+-->
+
+
 
 <form action="/chatbot" method="post" id="myfirstform">
-	<label for = "chatbox">Enter your message</label>
-	<input type = "textbox" name = "chatbox" id ="chatbox"/>
-	<input type= 'submit' value="Send"/>
-	<label for = "response">Aphaea's response</label>
-	<input type = "textbox" name = "response" id = "response"/>
+    <div class = "ow"><div id = "#result"><input type = "textbox" name = "response" id = "response" class = "boxed_output" align="center" readonly/></div>
+    </div>
+    <br>
+	<label for = "chatbox" class = "message"><h2>Enter your message</h2></label>
+	<div id = "#ans"></textarea><input type = "textbox" name = "chatbox" id ="chatbox" class = "boxed_input" align="center" /></div>
+	<input type= 'submit' value="Send" class = "boxed_submit" align="center" />
+	
 </form>
+
+
 </body>
 </html>
