@@ -27,6 +27,11 @@
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+
+    <!-- Map Head -->
+
   </head>
 
 
@@ -143,9 +148,33 @@
       <div class="section">
         <div class="row">
           <div class="col s12 center">
-            <h3><i class="mdi-content-send black-text"></i></h3>
+
+            <script>
+              var algoliasearch = require('algoliasearch');
+                var client = algoliasearch('2F5Z2LUE75', '••••••••••••••••••••••••••••••••');
+                var index = client.initIndex('symptoms');
+                const records = require('./symptoms.json');
+                index.addObjects(records);
+                var search = instantsearch({
+                appId: 'latency',
+                apiKey: '6be0576ff61c053d5f9a3225e2a90f76',
+                indexName: 'instant_search',
+                urlSync: true,
+                searchParameters: {
+                  hitsPerPage: 10
+                }
+              });
+                search.addWidget(
+                instantsearch.widgets.searchBox({
+                  container: '#search-input'
+                })
+              );
+                search.start();
+            </script>
+
+            <!-- <h3><i class="mdi-content-send black-text"></i></h3>
             <h4 class="center black-text">Symptom Checker</h4>
-            <p class="left-align light black-text">***symptom and med api go here***</p>
+            <p class="left-align light black-text">***symptom and med api go here***</p> -->
           </div>
         </div>
       </div>
@@ -169,7 +198,26 @@
           <div class="col s12 center">
             <h3><i class="mdi-content-send black-text"></i></h3>
             <h4 class="center black-text">Live Assistance</h4>
-            <p class="left-align light black-text">Live chat will go here</p>
+            <p class="left-align light black-text">Our live chat assisstance used an api which can only run once our website is connected to a server. Due to the time constraint we have decided against setting up the server at this point in time. Consequently, live chat asssistance launch date is currenctly tbd.</p>
+
+            <h3><i class="mdi-content-send black-text"></i></h3>
+            <div class="icon-block">
+              <h2 class="center blue-text"><i rel="icon" type="image/gif/png" href="logo.png"></i></h2>
+              <h4 class="center black-text">Stay Updated</h4>
+            </div>
+            <script type="text/javascript">
+            window._chatlio = window._chatlio||[];
+            !function(){ var t=document.getElementById("chatlio-widget-embed");if(t&&window.ChatlioReact&&_chatlio.init)return void _chatlio.init(t,ChatlioReact);for(var e=function(t){return function(){_chatlio.push([t].concat(arguments)) }},i=["configure","identify","track","show","hide","isShown","isOnline", "page", "open", "showOrHide"],a=0;a<i.length;a++)_chatlio[i[a]]||(_chatlio[i[a]]=e(i[a]));var n=document.createElement("script"),c=document.getElementsByTagName("script")[0];n.id="chatlio-widget-embed",n.src="https://w.chatlio.com/w.chatlio-widget.js",n.async=!0,n.setAttribute("data-embed-version","2.3");
+            n.setAttribute('data-widget-options', '{"embedInline": true}');
+            n.setAttribute('data-widget-id','54ba243a-59dc-42d6-7ed3-b64ecc95b024');
+            c.parentNode.insertBefore(n,c);
+            }();
+            </script>
+
+            <!-- Add this div in your DOM where you want the inline div to be inserted by Chatlio, change height/width to fit your needs -->
+            <div id="chatlioWidgetPlaceholder" style="margin: auto; height: 400px;width:400px;"></div>
+
+
           </div>
         </div>
       </div>
@@ -195,7 +243,12 @@
           <div class="col s12 center">
             <h3><i class="mdi-content-send black-text"></i></h3>
             <h4 class="center black-text">Chatbot</h4>
+<<<<<<< HEAD
             <a href = "http://localhost:4000/" target="_top"><embed src = "chatbot.gif"></a>
+=======
+            <a id="logo-container" href="/Users/katrionadurkin/Desktop/Emergency-Childbirth-Assistance/ECA-Webpage/assistant-simple-master/public/index1.html"><img border="0" alt="W3Schools" src="chatbot.gif" width="250" height="200"></a>
+            <a href = " " target="_top"></a>
+>>>>>>> 085b43a2b2b591ed4367efea2d2649723c458222
           </div>
         </div>
       </div>
@@ -214,18 +267,28 @@
     </div>
 
   <!-- Emergency Application -->
-    <div id= "emergency">
-    <div class="container">
-      <div class="section">
-        <div class="row">
-          <div class="col s12 center">
-            <h3><i class="mdi-content-send black-text"></i></h3>
-            <h4 class="center black-text">Emergency Services</h4>
-            <p class="left-align light black-text">resoucre map and local emergency number will go here (enter vipcode).</p>
-          </div>
+  <div id="emergency">
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 center"
+          <div class="row center">
+          <h4 class="center black-text">Map of Resources Near You</h4>
+          <a id="logo-container" href="map-geo.html"><img border="0" alt="W3Schools" src="map.gif" width="250" height="190"></a>
+        </div>
+
         </div>
       </div>
     </div>
+  </div>
+
+
+
+
+
+
+
+
 
   <!-- Picture 6 -->
     <div class="parallax-container valign-wrapper">
