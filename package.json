@@ -1,0 +1,16 @@
+{
+  "name": "eca-webpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001bchatbot.js)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "get-form-data": "^2.0.0",
+    "querystring": "^0.2.0",
+    "watson-developer-cloud": "^3.12.0"
+  }
+}
