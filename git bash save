@@ -1,0 +1,3388 @@
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/New folder
+$ npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help json` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (new-folder) test
+version: (1.0.0)
+description:
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author:
+license: (ISC)
+About to write to C:\Imaan\Big Red Hacks 2018\New folder\package.json:
+
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes)
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/New folder
+$ npm install --save watson-developer-cloud
+
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/New folder
+$
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/New folder
+$ npm install --save watson-developer-cloud
+
+> websocket@1.0.28 install C:\Imaan\Big Red Hacks 2018\New folder\node_modules\websocket
+> (node-gyp rebuild 2> builderror.log) || (exit 0)
+
+
+C:\Imaan\Big Red Hacks 2018\New folder\node_modules\websocket>if not defined npm_config_node_gyp (node "C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin\\..\..\node_modules\node-gyp\bin\node-gyp.js" rebuild )  else (node "C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\bin\node-gyp.js" rebuild )
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN test@1.0.0 No description
+npm WARN test@1.0.0 No repository field.
+
++ watson-developer-cloud@3.12.0
+added 74 packages from 132 contributors and audited 100 packages in 4.224s
+found 0 vulnerabilities
+
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/New folder
+$ ls
+node_modules/  package.json  package-lock.json
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/New folder
+$ ls
+index.js  node_modules/  package.json  package-lock.json  translatortest.html
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/New folder
+$ node start
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'C:\Imaan\Big Red Hacks 2018\New folder\start'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/New folder
+$ node run
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'C:\Imaan\Big Red Hacks 2018\New folder\run'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/New folder
+$ ls -la
+total 53
+drwxr-xr-x 1 imaan 197609     0 Oct 20 10:19 ./
+drwxr-xr-x 1 imaan 197609     0 Oct 20 10:25 ../
+-rw-r--r-- 1 imaan 197609   948 Oct 20 10:32 index.js
+drwxr-xr-x 1 imaan 197609     0 Oct 20 10:14 node_modules/
+-rw-r--r-- 1 imaan 197609   265 Oct 20 10:14 package.json
+-rw-r--r-- 1 imaan 197609 20415 Oct 20 10:14 package-lock.json
+-rw-r--r-- 1 imaan 197609   285 Oct 20 10:29 translatortest.html
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/New folder
+$ npm install
+npm WARN test@1.0.0 No description
+npm WARN test@1.0.0 No repository field.
+
+up to date in 0.837s
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/New folder
+$
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/New folder
+$ npm
+
+Usage: npm <command>
+
+where <command> is one of:
+    access, adduser, audit, bin, bugs, c, cache, ci, cit,
+    completion, config, create, ddp, dedupe, deprecate,
+    dist-tag, docs, doctor, edit, explore, get, help,
+    help-search, hook, i, init, install, install-test, it, link,
+    list, ln, login, logout, ls, outdated, owner, pack, ping,
+    prefix, profile, prune, publish, rb, rebuild, repo, restart,
+    root, run, run-script, s, se, search, set, shrinkwrap, star,
+    stars, start, stop, t, team, test, token, tst, un,
+    uninstall, unpublish, unstar, up, update, v, version, view,
+    whoami
+
+npm <command> -h  quick help on <command>
+npm -l            display full usage info
+npm help <term>   search for help on <term>
+npm help npm      involved overview
+
+Specify configs in the ini-formatted file:
+    C:\Users\imaan\.npmrc
+or on the command line via: npm <command> --key value
+Config info can be viewed via: npm help config
+
+npm@6.4.1 C:\Program Files\nodejs\node_modules\npm
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/New folder
+$ npm help
+
+Usage: npm <command>
+
+where <command> is one of:
+    access, adduser, audit, bin, bugs, c, cache, ci, cit,
+    completion, config, create, ddp, dedupe, deprecate,
+    dist-tag, docs, doctor, edit, explore, get, help,
+    help-search, hook, i, init, install, install-test, it, link,
+    list, ln, login, logout, ls, outdated, owner, pack, ping,
+    prefix, profile, prune, publish, rb, rebuild, repo, restart,
+    root, run, run-script, s, se, search, set, shrinkwrap, star,
+    stars, start, stop, t, team, test, token, tst, un,
+    uninstall, unpublish, unstar, up, update, v, version, view,
+    whoami
+
+npm <command> -h  quick help on <command>
+npm -l            display full usage info
+npm help <term>   search for help on <term>
+npm help npm      involved overview
+
+Specify configs in the ini-formatted file:
+    C:\Users\imaan\.npmrc
+or on the command line via: npm <command> --key value
+Config info can be viewed via: npm help config
+
+npm@6.4.1 C:\Program Files\nodejs\node_modules\npm
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/New folder
+$ npm start
+npm ERR! missing script: start
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\imaan\AppData\Roaming\npm-cache\_logs\2018-10-20T15_08_26_494Z-debug.log
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/New folder
+$ npm run
+Lifecycle scripts included in test:
+  test
+    echo "Error: no test specified" && exit 1
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/New folder
+$ ls -la
+total 53
+drwxr-xr-x 1 imaan 197609     0 Oct 20 10:19 ./
+drwxr-xr-x 1 imaan 197609     0 Oct 20 10:25 ../
+-rw-r--r-- 1 imaan 197609   948 Oct 20 10:32 index.js
+drwxr-xr-x 1 imaan 197609     0 Oct 20 10:14 node_modules/
+-rw-r--r-- 1 imaan 197609   265 Oct 20 10:14 package.json
+-rw-r--r-- 1 imaan 197609 20415 Oct 20 10:14 package-lock.json
+-rw-r--r-- 1 imaan 197609   285 Oct 20 10:29 translatortest.html
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/New folder
+$ node
+> -v
+ReferenceError: v is not defined
+> quit()
+ReferenceError: quit is not defined
+>
+(To exit, press ^C again or type .exit)
+>
+>
+(To exit, press ^C again or type .exit)
+>
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/New folder
+$ ls -la
+total 53
+drwxr-xr-x 1 imaan 197609     0 Oct 20 10:19 ./
+drwxr-xr-x 1 imaan 197609     0 Oct 20 10:25 ../
+-rw-r--r-- 1 imaan 197609   948 Oct 20 10:32 index.js
+drwxr-xr-x 1 imaan 197609     0 Oct 20 10:14 node_modules/
+-rw-r--r-- 1 imaan 197609   265 Oct 20 10:14 package.json
+-rw-r--r-- 1 imaan 197609 20415 Oct 20 10:14 package-lock.json
+-rw-r--r-- 1 imaan 197609   285 Oct 20 10:29 translatortest.html
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/New folder
+$ node server
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'C:\Imaan\Big Red Hacks 2018\New folder\server'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/New folder
+$ ls -la
+total 53
+drwxr-xr-x 1 imaan 197609     0 Oct 20 10:19 ./
+drwxr-xr-x 1 imaan 197609     0 Oct 20 10:25 ../
+-rw-r--r-- 1 imaan 197609   948 Oct 20 10:32 index.js
+drwxr-xr-x 1 imaan 197609     0 Oct 20 10:14 node_modules/
+-rw-r--r-- 1 imaan 197609   265 Oct 20 10:14 package.json
+-rw-r--r-- 1 imaan 197609 20415 Oct 20 10:14 package-lock.json
+-rw-r--r-- 1 imaan 197609   285 Oct 20 10:29 translatortest.html
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/New folder
+$ ls node_modules/
+'@types'/           fast-json-stable-stringify/   ms/
+ ajv/               file-type/                    nan/
+ asn1/              forever-agent/                oauth-sign/
+ assert-plus/       form-data/                    object.omit/
+ async/             getpass/                      object.pick/
+ asynckit/          har-schema/                   performance-now/
+ aws4/              har-validator/                punycode/
+ aws-sign2/         http-signature/               qs/
+ bcrypt-pbkdf/      is-extendable/                request/
+ buffer-from/       isobject/                     safe-buffer/
+ caseless/          is-plain-object/              safer-buffer/
+ co/                isstream/                     sshpk/
+ combined-stream/   is-typedarray/                tough-cookie/
+ core-util-is/      jsbn/                         tunnel-agent/
+ csv-stringify/     json-schema/                  tweetnacl/
+ dashdash/          json-schema-traverse/         typedarray-to-buffer/
+ debug/             json-stringify-safe/          uuid/
+ delayed-stream/    jsprim/                       vcap_services/
+ ecc-jsbn/          lodash/                       verror/
+ extend/            lodash.get/                   watson-developer-cloud/
+ extsprintf/        mime-db/                      websocket/
+ fast-deep-equal/   mime-types/                   yaeti/
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/New folder
+$ ls -al
+total 53
+drwxr-xr-x 1 imaan 197609     0 Oct 20 10:19 ./
+drwxr-xr-x 1 imaan 197609     0 Oct 20 10:25 ../
+-rw-r--r-- 1 imaan 197609   948 Oct 20 10:32 index.js
+drwxr-xr-x 1 imaan 197609     0 Oct 20 10:14 node_modules/
+-rw-r--r-- 1 imaan 197609   265 Oct 20 10:14 package.json
+-rw-r--r-- 1 imaan 197609 20415 Oct 20 10:14 package-lock.json
+-rw-r--r-- 1 imaan 197609   285 Oct 20 10:29 translatortest.html
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/New folder
+$ more package.json
+bash: more: command not found
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/New folder
+$ cat package.json
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "watson-developer-cloud": "^3.12.0"
+  }
+}
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/New folder
+$ node index.js
+C:\Imaan\Big Red Hacks 2018\New folder\index.js:17
+                document.getElementById("head").setProperty("text", "Event fired
+", null);
+                ^
+
+ReferenceError: document is not defined
+    at C:\Imaan\Big Red Hacks 2018\New folder\index.js:17:5
+    at C:\Imaan\Big Red Hacks 2018\New folder\node_modules\watson-developer-clou
+d\lib\base_service.js:189:28
+    at C:\Imaan\Big Red Hacks 2018\New folder\node_modules\watson-developer-clou
+d\iam-token-manager\v1.js:62:24
+    at Request._callback (C:\Imaan\Big Red Hacks 2018\New folder\node_modules\wa
+tson-developer-cloud\lib\requestwrapper.js:61:13)
+    at self.callback (C:\Imaan\Big Red Hacks 2018\New folder\node_modules\reques
+t\request.js:185:22)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Request.onRequestError (C:\Imaan\Big Red Hacks 2018\New folder\node_modul
+es\request\request.js:877:8)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/New folder
+$ node index.js^C
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/New folder
+$ ls -la
+total 53
+drwxr-xr-x 1 imaan 197609     0 Oct 20 10:19 ./
+drwxr-xr-x 1 imaan 197609     0 Oct 20 10:25 ../
+-rw-r--r-- 1 imaan 197609   948 Oct 20 10:32 index.js
+drwxr-xr-x 1 imaan 197609     0 Oct 20 10:14 node_modules/
+-rw-r--r-- 1 imaan 197609   265 Oct 20 10:14 package.json
+-rw-r--r-- 1 imaan 197609 20415 Oct 20 10:14 package-lock.json
+-rw-r--r-- 1 imaan 197609   285 Oct 20 10:29 translatortest.html
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/New folder
+$ cd ..
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018
+$ mkdir firstnode
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018
+$ cd firstnode
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/firstnode
+$ npm install
+npm WARN saveError ENOENT: no such file or directory, open 'C:\Imaan\Big Red Hacks 2018\firstnode\package.json'
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN enoent ENOENT: no such file or directory, open 'C:\Imaan\Big Red Hacks2018\firstnode\package.json'
+npm WARN firstnode No description
+npm WARN firstnode No repository field.
+npm WARN firstnode No README data
+npm WARN firstnode No license field.
+
+up to date in 0.445s
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/firstnode
+$ ls -la
+total 5
+drwxr-xr-x 1 imaan 197609  0 Oct 20 11:17 ./
+drwxr-xr-x 1 imaan 197609  0 Oct 20 11:17 ../
+-rw-r--r-- 1 imaan 197609 27 Oct 20 11:17 package-lock.json
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/firstnode
+$
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/firstnode
+$
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/firstnode
+$ cd..
+bash: cd..: command not found
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/firstnode
+$ cd ...
+bash: cd: ...: No such file or directory
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/firstnode
+$ cd ..
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018
+$ ls -la
+total 54
+drwxr-xr-x 1 imaan 197609   0 Oct 20 11:17  ./
+drwxr-xr-x 1 imaan 197609   0 Oct 19 23:50  ../
+drwxr-xr-x 1 imaan 197609   0 Oct 20 11:17  firstnode/
+-rw-r--r-- 1 imaan 197609 269 Oct 20 00:09  myfirst.js
+-rw-r--r-- 1 imaan 197609  58 Oct 20 00:00  myfirstmodule.js
+drwxr-xr-x 1 imaan 197609   0 Oct 20 10:19 'New folder'/
+-rw-r--r-- 1 imaan 197609   0 Oct 20 00:08  translator.js
+-rw-r--r-- 1 imaan 197609 825 Oct 20 10:06  translator1.js
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018
+$ rm firstnode/
+rm: cannot remove 'firstnode/': Is a directory
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018
+$ git clone https://github.com/vikingeducation/demo_simple_node_server.git
+Cloning into 'demo_simple_node_server'...
+remote: Enumerating objects: 6, done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 6
+Unpacking objects: 100% (6/6), done.
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018
+$ cd demo_simple_node_server/
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ dir
+app.js  public  README.md
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'watson-developer-cloud/language-translator/v3'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\a
+pp.js:7:28)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ npm install
+
+> websocket@1.0.28 install C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\websocket
+> (node-gyp rebuild 2> builderror.log) || (exit 0)
+
+
+C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\websocket>if not defined npm_config_node_gyp (node "C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin\\..\..\node_modules\node-gyp\bin\node-gyp.js" rebuild )  else (node "C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\bin\node-gyp.js" rebuild )
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN test@1.0.0 No repository field.
+
+added 74 packages from 132 contributors and audited 100 packages in 4.494s
+found 0 vulnerabilities
+
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\app.js:26
+                document.getElementById("head").setProperty("text", "Event fired
+", null);
+                ^
+
+ReferenceError: document is not defined
+    at C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\app.js:26:5
+    at Request._callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\no
+de_modules\watson-developer-cloud\lib\requestwrapper.js:125:9)
+    at Request.self.callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_serve
+r\node_modules\request\request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\
+node_modules\request\request.js:1157:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Gunzip.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\n
+ode_modules\request\request.js:1079:12)
+    at Object.onceWrapper (events.js:313:30)
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\app.js:26
+                document.getElementById("head").setProperty("text", "Event fired
+", null);
+                ^
+
+ReferenceError: document is not defined
+    at C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\app.js:26:5
+    at Request._callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\no
+de_modules\watson-developer-cloud\lib\requestwrapper.js:125:9)
+    at Request.self.callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_serve
+r\node_modules\request\request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\
+node_modules\request\request.js:1157:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Gunzip.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\n
+ode_modules\request\request.js:1079:12)
+    at Object.onceWrapper (events.js:313:30)
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+_http_outgoing.js:739
+      throw new TypeError('First argument must be a string or Buffer');
+      ^
+
+TypeError: First argument must be a string or Buffer
+    at ServerResponse.end (_http_outgoing.js:739:13)
+    at C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\app.js:32:13
+    at Request._callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\no
+de_modules\watson-developer-cloud\lib\requestwrapper.js:125:9)
+    at Request.self.callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_serve
+r\node_modules\request\request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\
+node_modules\request\request.js:1157:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Gunzip.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\n
+ode_modules\request\request.js:1079:12)
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+Error: Missing required parameters: text
+    at Object.getMissingParams (C:\Imaan\Big Red Hacks 2018\demo_simple_node_ser
+ver\node_modules\watson-developer-cloud\lib\helper.js:95:11)
+    at LanguageTranslatorV3.translate (C:\Imaan\Big Red Hacks 2018\demo_simple_n
+ode_server\node_modules\watson-developer-cloud\language-translator\v3.js:89:38)
+    at Server.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\a
+pp.js:23:23)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:634:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:117:17)
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+Error: Missing required parameters: text
+    at Object.getMissingParams (C:\Imaan\Big Red Hacks 2018\demo_simple_node_ser
+ver\node_modules\watson-developer-cloud\lib\helper.js:95:11)
+    at LanguageTranslatorV3.translate (C:\Imaan\Big Red Hacks 2018\demo_simple_n
+ode_server\node_modules\watson-developer-cloud\language-translator\v3.js:89:38)
+    at Server.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\a
+pp.js:23:23)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:634:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:117:17)
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+_http_outgoing.js:739
+      throw new TypeError('First argument must be a string or Buffer');
+      ^
+
+TypeError: First argument must be a string or Buffer
+    at ServerResponse.end (_http_outgoing.js:739:13)
+    at C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\app.js:34:13
+    at Request._callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\no
+de_modules\watson-developer-cloud\lib\requestwrapper.js:125:9)
+    at Request.self.callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_serve
+r\node_modules\request\request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\
+node_modules\request\request.js:1157:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Gunzip.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\n
+ode_modules\request\request.js:1079:12)
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ ^C
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+_http_outgoing.js:739
+      throw new TypeError('First argument must be a string or Buffer');
+      ^
+
+TypeError: First argument must be a string or Buffer
+    at ServerResponse.end (_http_outgoing.js:739:13)
+    at C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\app.js:34:13
+    at Request._callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\no
+de_modules\watson-developer-cloud\lib\requestwrapper.js:125:9)
+    at Request.self.callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_serve
+r\node_modules\request\request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\
+node_modules\request\request.js:1157:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Gunzip.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\n
+ode_modules\request\request.js:1079:12)
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+_http_outgoing.js:739
+      throw new TypeError('First argument must be a string or Buffer');
+      ^
+
+TypeError: First argument must be a string or Buffer
+    at ServerResponse.end (_http_outgoing.js:739:13)
+    at C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\app.js:34:13
+    at Request._callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\no
+de_modules\watson-developer-cloud\lib\requestwrapper.js:125:9)
+    at Request.self.callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_serve
+r\node_modules\request\request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\
+node_modules\request\request.js:1157:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Gunzip.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\n
+ode_modules\request\request.js:1079:12)
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ ^C
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\app.js:34
+                      res.end(response.translations[0].translation_output.toStri
+ng());
+                                                                          ^
+
+TypeError: Cannot read property 'toString' of undefined
+    at C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\app.js:34:61
+    at Request._callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\no
+de_modules\watson-developer-cloud\lib\requestwrapper.js:125:9)
+    at Request.self.callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_serve
+r\node_modules\request\request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\
+node_modules\request\request.js:1157:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Gunzip.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\n
+ode_modules\request\request.js:1079:12)
+    at Object.onceWrapper (events.js:313:30)
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+<input type='button'>Hola</input>
+<input type='button'>Hola</input>
+<input type='button'>Hola</input>
+<input type='button'>Hola</input>
+<input type='button'>Hola</input>
+<input type='button'>Hola</input>
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+<input type="button">Hola</input>
+<input type="button">Hola</input>
+<input type="button">Hola</input>
+<input type="button">Hola</input>
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\app.js:34
+                      var html = "<input type=\"button\" value=\"" + response.tr
+anslations[0].translation + "\"">";
+
+                                 ^^
+
+SyntaxError: Invalid or unexpected token
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+<input type="button" value="Hola"/>
+<input type="button" value="Hola"/>
+<input type="button" value="Hola"/>
+<input type="button" value="Hola"/>
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+<input type="button" value="Hello" onclick="Hola"/>
+<input type="button" value="Hello" onclick="Hola"/>
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+<input type="button" value="Hello" onclick="alert('Hola')"/>
+<input type="button" value="Hello" onclick="alert('Hola')"/>
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\app.js:42
+server.listen(path: "/", port, host, function() {
+              ^^^^
+
+SyntaxError: missing ) after argument list
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ ^C
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+undefined
+<input type="button" value="Hello" onclick="alert('Hola')"/>
+undefined
+<input type="button" value="Hello" onclick="alert('Hola')"/>
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+IncomingMessage {
+  _readableState:
+   ReadableState {
+     objectMode: false,
+     highWaterMark: 16384,
+     buffer: BufferList { head: null, tail: null, length: 0 },
+     length: 0,
+     pipes: null,
+     pipesCount: 0,
+     flowing: null,
+     ended: false,
+     endEmitted: false,
+     reading: false,
+     sync: true,
+     needReadable: false,
+     emittedReadable: false,
+     readableListening: false,
+     resumeScheduled: false,
+     destroyed: false,
+     defaultEncoding: 'utf8',
+     awaitDrain: 0,
+     readingMore: true,
+     decoder: null,
+     encoding: null },
+  readable: true,
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  socket:
+   Socket {
+     connecting: false,
+     _hadError: false,
+     _handle:
+      TCP {
+        reading: true,
+        owner: [Circular],
+        onread: [Function: onread],
+        onconnection: null,
+        writeQueueSize: 0,
+        _consumed: true },
+     _parent: null,
+     _host: null,
+     _readableState:
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [Object],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        resumeScheduled: false,
+        destroyed: false,
+        defaultEncoding: 'utf8',
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: true,
+     domain: null,
+     _events:
+      { end: [Array],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Array],
+        timeout: [Function: socketOnTimeout],
+        data: [Function: bound socketOnData],
+        error: [Function: socketOnError],
+        close: [Array],
+        resume: [Function: onSocketResume],
+        pause: [Function: onSocketPause] },
+     _eventsCount: 9,
+     _maxListeners: undefined,
+     _writableState:
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        finalCalled: false,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        destroyed: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function: bound onwrite],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false,
+        bufferedRequestCount: 0,
+        corkedRequestsFree: [Object] },
+     writable: true,
+     allowHalfOpen: true,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server:
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        keepAliveTimeout: 5000,
+        _pendingResponseData: 0,
+        maxHeadersCount: null,
+        _connectionKey: '4:127.0.0.1:4000',
+        [Symbol(IncomingMessage)]: [Object],
+        [Symbol(ServerResponse)]: [Object],
+        [Symbol(asyncId)]: 6 },
+     _server:
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        keepAliveTimeout: 5000,
+        _pendingResponseData: 0,
+        maxHeadersCount: null,
+        _connectionKey: '4:127.0.0.1:4000',
+        [Symbol(IncomingMessage)]: [Object],
+        [Symbol(ServerResponse)]: [Object],
+        [Symbol(asyncId)]: 6 },
+     _idleTimeout: 120000,
+     _idleNext:
+      TimersList {
+        _idleNext: [Circular],
+        _idlePrev: [Circular],
+        _timer: [Object],
+        _unrefed: true,
+        msecs: 120000,
+        nextTick: false },
+     _idlePrev:
+      TimersList {
+        _idleNext: [Circular],
+        _idlePrev: [Circular],
+        _timer: [Object],
+        _unrefed: true,
+        msecs: 120000,
+        nextTick: false },
+     _idleStart: 6301,
+     _destroyed: false,
+     parser:
+      HTTPParser {
+        '0': [Function: parserOnHeaders],
+        '1': [Function: parserOnHeadersComplete],
+        '2': [Function: parserOnBody],
+        '3': [Function: parserOnMessageComplete],
+        '4': [Function: bound onParserExecute],
+        _headers: [],
+        _url: '',
+        _consumed: true,
+        socket: [Circular],
+        incoming: [Circular],
+        outgoing: null,
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: bound parserOnIncoming] },
+     on: [Function: socketOnWrap],
+     _paused: false,
+     _httpMessage:
+      ServerResponse {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: false,
+        upgrading: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: true,
+        useChunkedEncodingByDefault: true,
+        sendDate: true,
+        _removedConnection: false,
+        _removedContLen: false,
+        _removedTE: false,
+        _contentLength: null,
+        _hasBody: true,
+        _trailer: '',
+        finished: false,
+        _headerSent: false,
+        socket: [Circular],
+        connection: [Circular],
+        _header: null,
+        _onPendingData: [Function: bound updateOutgoingData],
+        _sent100: false,
+        _expect_continue: false,
+        [Symbol(outHeadersKey)]: null },
+     [Symbol(asyncId)]: 9,
+     [Symbol(bytesRead)]: 0,
+     [Symbol(asyncId)]: 11,
+     [Symbol(triggerAsyncId)]: 9 },
+  connection:
+   Socket {
+     connecting: false,
+     _hadError: false,
+     _handle:
+      TCP {
+        reading: true,
+        owner: [Circular],
+        onread: [Function: onread],
+        onconnection: null,
+        writeQueueSize: 0,
+        _consumed: true },
+     _parent: null,
+     _host: null,
+     _readableState:
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [Object],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        resumeScheduled: false,
+        destroyed: false,
+        defaultEncoding: 'utf8',
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: true,
+     domain: null,
+     _events:
+      { end: [Array],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Array],
+        timeout: [Function: socketOnTimeout],
+        data: [Function: bound socketOnData],
+        error: [Function: socketOnError],
+        close: [Array],
+        resume: [Function: onSocketResume],
+        pause: [Function: onSocketPause] },
+     _eventsCount: 9,
+     _maxListeners: undefined,
+     _writableState:
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        finalCalled: false,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        destroyed: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function: bound onwrite],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false,
+        bufferedRequestCount: 0,
+        corkedRequestsFree: [Object] },
+     writable: true,
+     allowHalfOpen: true,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server:
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        keepAliveTimeout: 5000,
+        _pendingResponseData: 0,
+        maxHeadersCount: null,
+        _connectionKey: '4:127.0.0.1:4000',
+        [Symbol(IncomingMessage)]: [Object],
+        [Symbol(ServerResponse)]: [Object],
+        [Symbol(asyncId)]: 6 },
+     _server:
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        keepAliveTimeout: 5000,
+        _pendingResponseData: 0,
+        maxHeadersCount: null,
+        _connectionKey: '4:127.0.0.1:4000',
+        [Symbol(IncomingMessage)]: [Object],
+        [Symbol(ServerResponse)]: [Object],
+        [Symbol(asyncId)]: 6 },
+     _idleTimeout: 120000,
+     _idleNext:
+      TimersList {
+        _idleNext: [Circular],
+        _idlePrev: [Circular],
+        _timer: [Object],
+        _unrefed: true,
+        msecs: 120000,
+        nextTick: false },
+     _idlePrev:
+      TimersList {
+        _idleNext: [Circular],
+        _idlePrev: [Circular],
+        _timer: [Object],
+        _unrefed: true,
+        msecs: 120000,
+        nextTick: false },
+     _idleStart: 6301,
+     _destroyed: false,
+     parser:
+      HTTPParser {
+        '0': [Function: parserOnHeaders],
+        '1': [Function: parserOnHeadersComplete],
+        '2': [Function: parserOnBody],
+        '3': [Function: parserOnMessageComplete],
+        '4': [Function: bound onParserExecute],
+        _headers: [],
+        _url: '',
+        _consumed: true,
+        socket: [Circular],
+        incoming: [Circular],
+        outgoing: null,
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: bound parserOnIncoming] },
+     on: [Function: socketOnWrap],
+     _paused: false,
+     _httpMessage:
+      ServerResponse {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: false,
+        upgrading: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: true,
+        useChunkedEncodingByDefault: true,
+        sendDate: true,
+        _removedConnection: false,
+        _removedContLen: false,
+        _removedTE: false,
+        _contentLength: null,
+        _hasBody: true,
+        _trailer: '',
+        finished: false,
+        _headerSent: false,
+        socket: [Circular],
+        connection: [Circular],
+        _header: null,
+        _onPendingData: [Function: bound updateOutgoingData],
+        _sent100: false,
+        _expect_continue: false,
+        [Symbol(outHeadersKey)]: null },
+     [Symbol(asyncId)]: 9,
+     [Symbol(bytesRead)]: 0,
+     [Symbol(asyncId)]: 11,
+     [Symbol(triggerAsyncId)]: 9 },
+  httpVersionMajor: 1,
+  httpVersionMinor: 1,
+  httpVersion: '1.1',
+  complete: false,
+  headers:
+   { host: 'localhost:4000',
+     connection: 'keep-alive',
+     'cache-control': 'max-age=0',
+     'upgrade-insecure-requests': '1',
+     'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+     dnt: '1',
+     accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+     'accept-encoding': 'gzip, deflate, br',
+     'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8' },
+  rawHeaders:
+   [ 'Host',
+     'localhost:4000',
+     'Connection',
+     'keep-alive',
+     'Cache-Control',
+     'max-age=0',
+     'Upgrade-Insecure-Requests',
+     '1',
+     'User-Agent',
+     'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+     'DNT',
+     '1',
+     'Accept',
+     'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+     'Accept-Encoding',
+     'gzip, deflate, br',
+     'Accept-Language',
+     'en-GB,en-US;q=0.9,en;q=0.8' ],
+  trailers: {},
+  rawTrailers: [],
+  upgrade: false,
+  url: '/',
+  method: 'GET',
+  statusCode: null,
+  statusMessage: null,
+  client:
+   Socket {
+     connecting: false,
+     _hadError: false,
+     _handle:
+      TCP {
+        reading: true,
+        owner: [Circular],
+        onread: [Function: onread],
+        onconnection: null,
+        writeQueueSize: 0,
+        _consumed: true },
+     _parent: null,
+     _host: null,
+     _readableState:
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [Object],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        resumeScheduled: false,
+        destroyed: false,
+        defaultEncoding: 'utf8',
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: true,
+     domain: null,
+     _events:
+      { end: [Array],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Array],
+        timeout: [Function: socketOnTimeout],
+        data: [Function: bound socketOnData],
+        error: [Function: socketOnError],
+        close: [Array],
+        resume: [Function: onSocketResume],
+        pause: [Function: onSocketPause] },
+     _eventsCount: 9,
+     _maxListeners: undefined,
+     _writableState:
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        finalCalled: false,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        destroyed: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function: bound onwrite],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false,
+        bufferedRequestCount: 0,
+        corkedRequestsFree: [Object] },
+     writable: true,
+     allowHalfOpen: true,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server:
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        keepAliveTimeout: 5000,
+        _pendingResponseData: 0,
+        maxHeadersCount: null,
+        _connectionKey: '4:127.0.0.1:4000',
+        [Symbol(IncomingMessage)]: [Object],
+        [Symbol(ServerResponse)]: [Object],
+        [Symbol(asyncId)]: 6 },
+     _server:
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        keepAliveTimeout: 5000,
+        _pendingResponseData: 0,
+        maxHeadersCount: null,
+        _connectionKey: '4:127.0.0.1:4000',
+        [Symbol(IncomingMessage)]: [Object],
+        [Symbol(ServerResponse)]: [Object],
+        [Symbol(asyncId)]: 6 },
+     _idleTimeout: 120000,
+     _idleNext:
+      TimersList {
+        _idleNext: [Circular],
+        _idlePrev: [Circular],
+        _timer: [Object],
+        _unrefed: true,
+        msecs: 120000,
+        nextTick: false },
+     _idlePrev:
+      TimersList {
+        _idleNext: [Circular],
+        _idlePrev: [Circular],
+        _timer: [Object],
+        _unrefed: true,
+        msecs: 120000,
+        nextTick: false },
+     _idleStart: 6301,
+     _destroyed: false,
+     parser:
+      HTTPParser {
+        '0': [Function: parserOnHeaders],
+        '1': [Function: parserOnHeadersComplete],
+        '2': [Function: parserOnBody],
+        '3': [Function: parserOnMessageComplete],
+        '4': [Function: bound onParserExecute],
+        _headers: [],
+        _url: '',
+        _consumed: true,
+        socket: [Circular],
+        incoming: [Circular],
+        outgoing: null,
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: bound parserOnIncoming] },
+     on: [Function: socketOnWrap],
+     _paused: false,
+     _httpMessage:
+      ServerResponse {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: false,
+        upgrading: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: true,
+        useChunkedEncodingByDefault: true,
+        sendDate: true,
+        _removedConnection: false,
+        _removedContLen: false,
+        _removedTE: false,
+        _contentLength: null,
+        _hasBody: true,
+        _trailer: '',
+        finished: false,
+        _headerSent: false,
+        socket: [Circular],
+        connection: [Circular],
+        _header: null,
+        _onPendingData: [Function: bound updateOutgoingData],
+        _sent100: false,
+        _expect_continue: false,
+        [Symbol(outHeadersKey)]: null },
+     [Symbol(asyncId)]: 9,
+     [Symbol(bytesRead)]: 0,
+     [Symbol(asyncId)]: 11,
+     [Symbol(triggerAsyncId)]: 9 },
+  _consuming: false,
+  _dumped: false }
+<input type="button" value="Hello" onclick="alert('Hola')"/>
+IncomingMessage {
+  _readableState:
+   ReadableState {
+     objectMode: false,
+     highWaterMark: 16384,
+     buffer: BufferList { head: null, tail: null, length: 0 },
+     length: 0,
+     pipes: null,
+     pipesCount: 0,
+     flowing: null,
+     ended: false,
+     endEmitted: false,
+     reading: false,
+     sync: true,
+     needReadable: false,
+     emittedReadable: false,
+     readableListening: false,
+     resumeScheduled: false,
+     destroyed: false,
+     defaultEncoding: 'utf8',
+     awaitDrain: 0,
+     readingMore: true,
+     decoder: null,
+     encoding: null },
+  readable: true,
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  socket:
+   Socket {
+     connecting: false,
+     _hadError: false,
+     _handle:
+      TCP {
+        reading: true,
+        owner: [Circular],
+        onread: [Function: onread],
+        onconnection: null,
+        writeQueueSize: 0,
+        _consumed: true },
+     _parent: null,
+     _host: null,
+     _readableState:
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [Object],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        resumeScheduled: false,
+        destroyed: false,
+        defaultEncoding: 'utf8',
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: true,
+     domain: null,
+     _events:
+      { end: [Array],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Array],
+        timeout: [Function: socketOnTimeout],
+        data: [Function: bound socketOnData],
+        error: [Function: socketOnError],
+        close: [Array],
+        resume: [Function: onSocketResume],
+        pause: [Function: onSocketPause] },
+     _eventsCount: 9,
+     _maxListeners: undefined,
+     _writableState:
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        finalCalled: false,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        destroyed: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: false,
+        bufferProcessing: false,
+        onwrite: [Function: bound onwrite],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false,
+        bufferedRequestCount: 0,
+        corkedRequestsFree: [Object] },
+     writable: true,
+     allowHalfOpen: true,
+     _bytesDispatched: 204,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server:
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        _connections: 3,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        keepAliveTimeout: 5000,
+        _pendingResponseData: 0,
+        maxHeadersCount: null,
+        _connectionKey: '4:127.0.0.1:4000',
+        [Symbol(IncomingMessage)]: [Object],
+        [Symbol(ServerResponse)]: [Object],
+        [Symbol(asyncId)]: 6 },
+     _server:
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        _connections: 3,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        keepAliveTimeout: 5000,
+        _pendingResponseData: 0,
+        maxHeadersCount: null,
+        _connectionKey: '4:127.0.0.1:4000',
+        [Symbol(IncomingMessage)]: [Object],
+        [Symbol(ServerResponse)]: [Object],
+        [Symbol(asyncId)]: 6 },
+     _idleTimeout: 120000,
+     _idleNext:
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [Object],
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 9,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        _bytesDispatched: 0,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Object],
+        _idlePrev: [Circular],
+        _idleStart: 6550,
+        _destroyed: false,
+        parser: [Object],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        [Symbol(asyncId)]: 38,
+        [Symbol(bytesRead)]: 0,
+        [Symbol(asyncId)]: 39,
+        [Symbol(triggerAsyncId)]: 38 },
+     _idlePrev:
+      TimersList {
+        _idleNext: [Circular],
+        _idlePrev: [Object],
+        _timer: [Object],
+        _unrefed: true,
+        msecs: 120000,
+        nextTick: false },
+     _idleStart: 7046,
+     _destroyed: false,
+     parser:
+      HTTPParser {
+        '0': [Function: parserOnHeaders],
+        '1': [Function: parserOnHeadersComplete],
+        '2': [Function: parserOnBody],
+        '3': [Function: parserOnMessageComplete],
+        '4': [Function: bound onParserExecute],
+        _headers: [],
+        _url: '',
+        _consumed: true,
+        socket: [Circular],
+        incoming: [Circular],
+        outgoing: null,
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: bound parserOnIncoming] },
+     on: [Function: socketOnWrap],
+     _paused: false,
+     _httpMessage:
+      ServerResponse {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: false,
+        upgrading: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: true,
+        useChunkedEncodingByDefault: true,
+        sendDate: true,
+        _removedConnection: false,
+        _removedContLen: false,
+        _removedTE: false,
+        _contentLength: null,
+        _hasBody: true,
+        _trailer: '',
+        finished: false,
+        _headerSent: false,
+        socket: [Circular],
+        connection: [Circular],
+        _header: null,
+        _onPendingData: [Function: bound updateOutgoingData],
+        _sent100: false,
+        _expect_continue: false,
+        [Symbol(outHeadersKey)]: null },
+     [Symbol(asyncId)]: 9,
+     [Symbol(bytesRead)]: 0,
+     [Symbol(asyncId)]: 11,
+     [Symbol(triggerAsyncId)]: 9 },
+  connection:
+   Socket {
+     connecting: false,
+     _hadError: false,
+     _handle:
+      TCP {
+        reading: true,
+        owner: [Circular],
+        onread: [Function: onread],
+        onconnection: null,
+        writeQueueSize: 0,
+        _consumed: true },
+     _parent: null,
+     _host: null,
+     _readableState:
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [Object],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        resumeScheduled: false,
+        destroyed: false,
+        defaultEncoding: 'utf8',
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: true,
+     domain: null,
+     _events:
+      { end: [Array],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Array],
+        timeout: [Function: socketOnTimeout],
+        data: [Function: bound socketOnData],
+        error: [Function: socketOnError],
+        close: [Array],
+        resume: [Function: onSocketResume],
+        pause: [Function: onSocketPause] },
+     _eventsCount: 9,
+     _maxListeners: undefined,
+     _writableState:
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        finalCalled: false,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        destroyed: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: false,
+        bufferProcessing: false,
+        onwrite: [Function: bound onwrite],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false,
+        bufferedRequestCount: 0,
+        corkedRequestsFree: [Object] },
+     writable: true,
+     allowHalfOpen: true,
+     _bytesDispatched: 204,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server:
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        _connections: 3,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        keepAliveTimeout: 5000,
+        _pendingResponseData: 0,
+        maxHeadersCount: null,
+        _connectionKey: '4:127.0.0.1:4000',
+        [Symbol(IncomingMessage)]: [Object],
+        [Symbol(ServerResponse)]: [Object],
+        [Symbol(asyncId)]: 6 },
+     _server:
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        _connections: 3,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        keepAliveTimeout: 5000,
+        _pendingResponseData: 0,
+        maxHeadersCount: null,
+        _connectionKey: '4:127.0.0.1:4000',
+        [Symbol(IncomingMessage)]: [Object],
+        [Symbol(ServerResponse)]: [Object],
+        [Symbol(asyncId)]: 6 },
+     _idleTimeout: 120000,
+     _idleNext:
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [Object],
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 9,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        _bytesDispatched: 0,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Object],
+        _idlePrev: [Circular],
+        _idleStart: 6550,
+        _destroyed: false,
+        parser: [Object],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        [Symbol(asyncId)]: 38,
+        [Symbol(bytesRead)]: 0,
+        [Symbol(asyncId)]: 39,
+        [Symbol(triggerAsyncId)]: 38 },
+     _idlePrev:
+      TimersList {
+        _idleNext: [Circular],
+        _idlePrev: [Object],
+        _timer: [Object],
+        _unrefed: true,
+        msecs: 120000,
+        nextTick: false },
+     _idleStart: 7046,
+     _destroyed: false,
+     parser:
+      HTTPParser {
+        '0': [Function: parserOnHeaders],
+        '1': [Function: parserOnHeadersComplete],
+        '2': [Function: parserOnBody],
+        '3': [Function: parserOnMessageComplete],
+        '4': [Function: bound onParserExecute],
+        _headers: [],
+        _url: '',
+        _consumed: true,
+        socket: [Circular],
+        incoming: [Circular],
+        outgoing: null,
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: bound parserOnIncoming] },
+     on: [Function: socketOnWrap],
+     _paused: false,
+     _httpMessage:
+      ServerResponse {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: false,
+        upgrading: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: true,
+        useChunkedEncodingByDefault: true,
+        sendDate: true,
+        _removedConnection: false,
+        _removedContLen: false,
+        _removedTE: false,
+        _contentLength: null,
+        _hasBody: true,
+        _trailer: '',
+        finished: false,
+        _headerSent: false,
+        socket: [Circular],
+        connection: [Circular],
+        _header: null,
+        _onPendingData: [Function: bound updateOutgoingData],
+        _sent100: false,
+        _expect_continue: false,
+        [Symbol(outHeadersKey)]: null },
+     [Symbol(asyncId)]: 9,
+     [Symbol(bytesRead)]: 0,
+     [Symbol(asyncId)]: 11,
+     [Symbol(triggerAsyncId)]: 9 },
+  httpVersionMajor: 1,
+  httpVersionMinor: 1,
+  httpVersion: '1.1',
+  complete: false,
+  headers:
+   { host: 'localhost:4000',
+     connection: 'keep-alive',
+     pragma: 'no-cache',
+     'cache-control': 'no-cache',
+     'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+     dnt: '1',
+     accept: 'image/webp,image/apng,image/*,*/*;q=0.8',
+     referer: 'http://localhost:4000/',
+     'accept-encoding': 'gzip, deflate, br',
+     'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8' },
+  rawHeaders:
+   [ 'Host',
+     'localhost:4000',
+     'Connection',
+     'keep-alive',
+     'Pragma',
+     'no-cache',
+     'Cache-Control',
+     'no-cache',
+     'User-Agent',
+     'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+     'DNT',
+     '1',
+     'Accept',
+     'image/webp,image/apng,image/*,*/*;q=0.8',
+     'Referer',
+     'http://localhost:4000/',
+     'Accept-Encoding',
+     'gzip, deflate, br',
+     'Accept-Language',
+     'en-GB,en-US;q=0.9,en;q=0.8' ],
+  trailers: {},
+  rawTrailers: [],
+  upgrade: false,
+  url: '/favicon.ico',
+  method: 'GET',
+  statusCode: null,
+  statusMessage: null,
+  client:
+   Socket {
+     connecting: false,
+     _hadError: false,
+     _handle:
+      TCP {
+        reading: true,
+        owner: [Circular],
+        onread: [Function: onread],
+        onconnection: null,
+        writeQueueSize: 0,
+        _consumed: true },
+     _parent: null,
+     _host: null,
+     _readableState:
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [Object],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        resumeScheduled: false,
+        destroyed: false,
+        defaultEncoding: 'utf8',
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: true,
+     domain: null,
+     _events:
+      { end: [Array],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Array],
+        timeout: [Function: socketOnTimeout],
+        data: [Function: bound socketOnData],
+        error: [Function: socketOnError],
+        close: [Array],
+        resume: [Function: onSocketResume],
+        pause: [Function: onSocketPause] },
+     _eventsCount: 9,
+     _maxListeners: undefined,
+     _writableState:
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        finalCalled: false,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        destroyed: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: false,
+        bufferProcessing: false,
+        onwrite: [Function: bound onwrite],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false,
+        bufferedRequestCount: 0,
+        corkedRequestsFree: [Object] },
+     writable: true,
+     allowHalfOpen: true,
+     _bytesDispatched: 204,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server:
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        _connections: 3,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        keepAliveTimeout: 5000,
+        _pendingResponseData: 0,
+        maxHeadersCount: null,
+        _connectionKey: '4:127.0.0.1:4000',
+        [Symbol(IncomingMessage)]: [Object],
+        [Symbol(ServerResponse)]: [Object],
+        [Symbol(asyncId)]: 6 },
+     _server:
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        _connections: 3,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        keepAliveTimeout: 5000,
+        _pendingResponseData: 0,
+        maxHeadersCount: null,
+        _connectionKey: '4:127.0.0.1:4000',
+        [Symbol(IncomingMessage)]: [Object],
+        [Symbol(ServerResponse)]: [Object],
+        [Symbol(asyncId)]: 6 },
+     _idleTimeout: 120000,
+     _idleNext:
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [Object],
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 9,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        _bytesDispatched: 0,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Object],
+        _idlePrev: [Circular],
+        _idleStart: 6550,
+        _destroyed: false,
+        parser: [Object],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        [Symbol(asyncId)]: 38,
+        [Symbol(bytesRead)]: 0,
+        [Symbol(asyncId)]: 39,
+        [Symbol(triggerAsyncId)]: 38 },
+     _idlePrev:
+      TimersList {
+        _idleNext: [Circular],
+        _idlePrev: [Object],
+        _timer: [Object],
+        _unrefed: true,
+        msecs: 120000,
+        nextTick: false },
+     _idleStart: 7046,
+     _destroyed: false,
+     parser:
+      HTTPParser {
+        '0': [Function: parserOnHeaders],
+        '1': [Function: parserOnHeadersComplete],
+        '2': [Function: parserOnBody],
+        '3': [Function: parserOnMessageComplete],
+        '4': [Function: bound onParserExecute],
+        _headers: [],
+        _url: '',
+        _consumed: true,
+        socket: [Circular],
+        incoming: [Circular],
+        outgoing: null,
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: bound parserOnIncoming] },
+     on: [Function: socketOnWrap],
+     _paused: false,
+     _httpMessage:
+      ServerResponse {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: false,
+        upgrading: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: true,
+        useChunkedEncodingByDefault: true,
+        sendDate: true,
+        _removedConnection: false,
+        _removedContLen: false,
+        _removedTE: false,
+        _contentLength: null,
+        _hasBody: true,
+        _trailer: '',
+        finished: false,
+        _headerSent: false,
+        socket: [Circular],
+        connection: [Circular],
+        _header: null,
+        _onPendingData: [Function: bound updateOutgoingData],
+        _sent100: false,
+        _expect_continue: false,
+        [Symbol(outHeadersKey)]: null },
+     [Symbol(asyncId)]: 9,
+     [Symbol(bytesRead)]: 0,
+     [Symbol(asyncId)]: 11,
+     [Symbol(triggerAsyncId)]: 9 },
+  _consuming: false,
+  _dumped: false }
+<input type="button" value="Hello" onclick="alert('Hola')"/>
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ ^C
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/
+<input type="button" value="Hello" onclick="alert('Hola')"/>
+/favicon.ico
+<input type="button" value="Hello" onclick="alert('Hola')"/>
+/index.html
+<input type="button" value="Hello" onclick="alert('Hola')"/>
+/favicon.ico
+<input type="button" value="Hello" onclick="alert('Hola')"/>
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ ^C
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/index.html
+/index.js
+/favicon.ico
+/index.html
+/index.js
+/favicon.ico
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/index.html
+/index.js
+/favicon.ico
+/index.html
+/index.js
+/favicon.ico
+/index.html
+/index.js
+/favicon.ico
+/index.html
+/index.js
+/favicon.ico
+/index.html
+/index.js
+/favicon.ico
+/index.html
+/index.js
+/favicon.ico
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/index.html
+/favicon.ico
+/translate
+/favicon.ico
+/translate
+/favicon.ico
+/translate
+/favicon.ico
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/index.html
+/favicon.ico
+/translate
+Translating now
+<input type="button" value="Hello" onclick="alert('Hola')"/>
+/favicon.ico
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\app.js:24
+   read(res "./index.head.html")
+        ^^^
+
+SyntaxError: missing ) after argument list
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/translate
+Translating now
+/favicon.ico
+<input type="button" value="Hello" onclick="alert('Hola')"/>
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: write after end
+    at write_ (_http_outgoing.js:622:15)
+    at ServerResponse.write (_http_outgoing.js:617:10)
+    at C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\app.js:40:14
+    at Request._callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_m
+odules\watson-developer-cloud\lib\requestwrapper.js:125:9)
+    at Request.self.callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\no
+de_modules\request\request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node
+_modules\request\request.js:1157:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/
+/favicon.ico
+/
+/favicon.ico
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: write after end
+    at write_ (_http_outgoing.js:622:15)
+    at ServerResponse.write (_http_outgoing.js:617:10)
+    at C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\app.js:63:13
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:511:3)
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js^C
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: write after end
+    at write_ (_http_outgoing.js:622:15)
+    at ServerResponse.write (_http_outgoing.js:617:10)
+    at C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\app.js:59:12
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:511:3)
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ ^C
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: write after end
+    at write_ (_http_outgoing.js:622:15)
+    at ServerResponse.write (_http_outgoing.js:617:10)
+    at C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\app.js:56:12
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:511:3)
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ ^C
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/
+/
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/
+/translate
+Translating now
+<script>document.getElementById('translated').value="Hola";</script>
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/
+/
+/
+/translate
+Translating now
+<script>document.onload=function(){ document.getElementById('translated').value="Hol
+a";}</script>
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/translate
+Translating now
+<script>document.onload=function(){ document.getElementById('translated').value="Hol
+a";}</script>
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/translate
+Translating now
+<script>alert('Hola');}</script>
+/translate
+Translating now
+<script>alert('Hola');}</script>
+/translate
+Translating now
+<script>alert('Hola');}</script>
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/translate
+Translating now
+<script>alert('Hola');</script>
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/translate
+Translating now
+<script>alert('Hola');</script>
+<script>document.getElementById('translated').value="Hola";</script>
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/translate
+Translating now
+<script>alert('Hola');</script>
+<script>document.getElementById('translated').value="Hola";</script>
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/translate
+Translating now
+<script>alert('Hola');</script>
+<script>document.getElementById("translated").value="Hola";</script>
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/translate
+Translating now
+<script>alert('Hola');</script>
+<script>document.getElementById("translated").value="Hola";</script>
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/
+/translate
+Translating now
+<script>document.getElementById("translated").value="Hola";</script>
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/translate
+C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\app.js:32
+           console.log("Translating now" + req.body.translate)
+                                                    ^
+
+TypeError: Cannot read property 'translate' of undefined
+    at Server.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\app.j
+s:32:49)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:634:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:117:17)
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ ^C
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/translate
+Translating nowundefined
+<script>document.getElementById("translated").value="Hola";</script>
+/translate
+Translating nowundefined
+<script>document.getElementById("translated").value="Hola";</script>
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/translate
+Translating now
+<script>document.getElementById("translated").value="Hola";</script>
+/translate
+Translating now
+<script>document.getElementById("translated").value="Hola";</script>
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ npminstall get-form-data
+bash: npminstall: command not found
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ npm install get-form-data
+npm WARN test@1.0.0 No repository field.
+
++ get-form-data@2.0.0
+added 1 package from 1 contributor and audited 101 packages in 1.946s
+found 0 vulnerabilities
+
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ ^C
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ npm install get-form-data
+npm WARN test@1.0.0 No repository field.
+
++ get-form-data@2.0.0
+updated 1 package and audited 101 packages in 1.37s
+found 0 vulnerabilities
+
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/translate
+C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\app.js:32
+           var f = document.querySelector("#myfirstform");
+                   ^
+
+ReferenceError: document is not defined
+    at Server.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\app.j
+s:32:16)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:634:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:117:17)
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ ^C
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/translate
+C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\app.js:33
+           console.log("Translating now" + req.query.translate)
+                                                     ^
+
+TypeError: Cannot read property 'translate' of undefined
+    at Server.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\app.j
+s:33:50)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:634:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:117:17)
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ ^C
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/translate
+C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\app.js:33
+           console.log("Translating now" + req.body.translate)
+                                                    ^
+
+TypeError: Cannot read property 'translate' of undefined
+    at Server.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\app.j
+s:33:49)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:634:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:117:17)
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ ^C
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/translate
+Translating nowundefined
+<script>document.getElementById("translated").value="Hola";</script>
+/translate
+Translating nowundefined
+<script>document.getElementById("translated").value="Hola";</script>
+/translate
+Translating nowundefined
+<script>document.getElementById("translated").value="Hola";</script>
+/translate
+Translating nowundefined
+<script>document.getElementById("translated").value="Hola";</script>
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\app.js:52
+                  }
+                  ^
+
+SyntaxError: missing ) after argument list
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'queryString'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\app.j
+s:3:10)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ npm install querystring
+npm WARN test@1.0.0 No repository field.
+
++ querystring@0.2.0
+added 1 package from 1 contributor and audited 102 packages in 1.475s
+found 0 vulnerabilities
+
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/translate
+Translating now[object Object]
+<script>document.getElementById("translated").value="Hola";</script>
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/translate
+Translating now[object Object]
+<script>document.getElementById("translated").value="Hola";</script>
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/translate
+Translating nowTranslate Hello
+<script>document.getElementById("translated").value="Hola";</script>
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/translate
+Translating=>Translate Hello
+<script>document.getElementById("translated").value="Translate Hello";</script>
+/translate
+Translating=>hello
+<script>document.getElementById("translated").value="Hola";</script>
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/translate
+Translating=>hello
+<script>document.getElementById("translated").value="Hola";</script><script>document
+.getElementById("translate").value="hello";</script>
+/translate
+Translating=>college
+<script>document.getElementById("translated").value="universidad";</script><script>d
+ocument.getElementById("translate").value="college";</script>
+/translate1
+/translate1
+/translate
+Translating=>Translate Hello
+<script>document.getElementById("translated").value="Translate Hello";</script><scri
+pt>document.getElementById("translate").value="Translate Hello";</script>
+/translate
+Translating=>Translate Hello
+<script>document.getElementById("translated").value="Translate Hello";</script><scri
+pt>document.getElementById("translate").value="Translate Hello";</script>
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/translate
+Translating=>Translate Hello
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: write after end
+    at write_ (_http_outgoing.js:622:15)
+    at ServerResponse.write (_http_outgoing.js:617:10)
+    at C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\app.js:65:12
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:511:3)
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ ^C
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/translate
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: write after end
+    at write_ (_http_outgoing.js:622:15)
+    at ServerResponse.write (_http_outgoing.js:617:10)
+    at C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\app.js:64:12
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:511:3)
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ ^C
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/translate1
+/translate
+Translating=>Translate Hello
+<script>document.getElementById("translated").value="Translate Hello";</script><
+script>document.getElementById("translate").value="Translate Hello";</script><sc
+ript>alert(Date.now());</script>
+/translate
+Translating=>Translate Hello
+<script>document.getElementById("translated").value="Translate Hello";</script><
+script>document.getElementById("translate").value="Translate Hello";</script><sc
+ript>alert(Date.now());</script>
+/translate
+Translating=>Translate Hello
+<script>document.getElementById("translated").value="Translate Hello";</script><
+script>document.getElementById("translate").value="Translate Hello";</script><sc
+ript>alert(Date.now());</script>
+/translate
+Translating=>Translate
+<script>document.getElementById("translated").value="Translate";</script><script
+>document.getElementById("translate").value="Translate";</script><script>alert(D
+ate.now());</script>
+/translate
+Translating=>college
+<script>document.getElementById("translated").value="universidad";</script><script>document.getElementById("translate").value="college";</script><script>alert(Date.now());<
+/script>
+/translate
+Translating=>car
+<script>document.getElementById("translated").value="coche";</script><script>document.getElementById("translate").value="car";</script><script>alert(Date.now());</script>
+/translate
+Translating=>Car
+<script>document.getElementById("translated").value="Coche";</script><script>document.getElementById("translate").value="Car";</script><script>alert(Date.now());</script>
+/translate
+Translating=>translate hello
+<script>document.getElementById("translated").value="traducir hola";</script><script>document.getElementById("translate").value="translate hello";</script><script>alert(Dat
+e.now());</script>
+/translate
+Translating=>hello
+<script>document.getElementById("translated").value="Hola";</script><script>document.getElementById("translate").value="hello";</script><script>alert(Date.now());</script>
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/translate
+Translating=>hello
+en
+<script>document.getElementById("translated").value="Hola";</script><script>document.getElementById("translate").value="hello";</script><script>alert(Date.now());</script>
+/translate
+Translating=>My name is Imaan
+af
+<script>document.getElementById("translated").value="Mi nombre es Imaan.";</script><script>document.getElementById("translate").value="My name is Imaan";</script><script>al
+ert(Date.now());</script>
+/translate
+Translating=>Mi nombre es
+<script>document.getElementById("translated").value="Mi nombre es";</script><script>document.getElementById("translate").value="Mi nombre es";</script><script>alert(Date.no
+w());</script>
+es
+/translate
+Translating=>Mi nombre es
+<script>document.getElementById("translated").value="Mi nombre es";</script><script>document.getElementById("translate").value="Mi nombre es";</script><script>alert(Date.no
+w());</script>
+es
+/translate
+Translating=>Mi nombre es
+es
+<script>document.getElementById("translated").value="Mi nombre es";</script><script>document.getElementById("translate").value="Mi nombre es";</script><script>alert(Date.no
+w());</script>
+/translate
+Translating=>Mi nombre es
+<script>document.getElementById("translated").value="Mi nombre es";</script><script>document.getElementById("translate").value="Mi nombre es";</script><script>alert(Date.no
+w());</script>
+es
+/translate
+Translating=>Mi nombre es
+<script>document.getElementById("translated").value="Mi nombre es";</script><script>document.getElementById("translate").value="Mi nombre es";</script><script>alert(Date.no
+w());</script>
+es
+/translate
+Translating=>Hello world
+en
+<script>document.getElementById("translated").value="Hola mundo";</script><script>document.getElementById("translate").value="Hello world";</script><script>alert(Date.now()
+);</script>
+/translate
+Translating=>Hello world
+<script>document.getElementById("translated").value="Hola mundo";</script><script>document.getElementById("translate").value="Hello world";</script><script>alert(Date.now()
+);</script>
+en
+/translate
+Translating=>Hello world
+<script>document.getElementById("translated").value="Hola mundo";</script><script>document.getElementById("translate").value="Hello world";</script><script>alert(Date.now()
+);</script>
+en
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\app.js:51
+                          'model_id': lang+'-'+lang_request;
+                                                           ^
+
+SyntaxError: Unexpected token ;
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/translate
+<script>document.getElementById("translated").value="Здравствуй, мир";</script><script>document.getElementById("translate").value="Hello world";</script>
+/translate
+<script>document.getElementById("translated").value="Здравствуй, мир";</script><script>document.getElementById("translate").value="Hello world";</script>
+/translate
+<script>document.getElementById("translated").value="Hola mundo";</script><script>document.getElementById("translate").value="Hello world";</script>
+/translate
+<script>document.getElementById("translated").value="Hola mundo";</script><script>document.getElementById("translate").value="Hello world";</script>
+/translate
+<script>document.getElementById("translated").value="Здравствуй, мир";</script><script>document.getElementById("translate").value="Hello world";</script>
+/translate
+{ Error: Model not found.
+    at Request._callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\watson-developer-cloud\lib\requestwrapper.js:102:21)
+    at Request.self.callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:1157:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Gunzip.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:1079:12)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:111:20)
+  code: 404,
+  error: 'Model not found.',
+  'x-global-transaction-id': 'ffea405d5bcb6722f6a318b9' }
+/translate
+{ Error: Model not found.
+    at Request._callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\watson-developer-cloud\lib\requestwrapper.js:102:21)
+    at Request.self.callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:1157:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Gunzip.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:1079:12)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:111:20)
+  code: 404,
+  error: 'Model not found.',
+  'x-global-transaction-id': 'ffea405d5bcb6731b5eeefe1' }
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.ja
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\app.ja'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/translate
+en-en
+{ Error: Model not found.
+    at Request._callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\watson-developer-cloud\lib\requestwrapper.js:102:21)
+    at Request.self.callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:1157:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Gunzip.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:1079:12)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:111:20)
+  code: 404,
+  error: 'Model not found.',
+  'x-global-transaction-id': 'ffea405d5bcb67c5f6a59bd9' }
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/translate
+C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\app.js:50
+                        if (lang.length() != 2) {
+                                 ^
+
+TypeError: lang.length is not a function
+    at IncomingMessage.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\app.js:50:19)
+    at emitNone (events.js:106:13)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/translate
+/translate
+en-es
+<script>document.getElementById("translated").value="Translate Hello";</script><script>document.getElementById("translate").value="Translate Hello";</script>
+/translate
+en-es
+<script>document.getElementById("translated").value="traducir hola";</script><script>document.getElementById("translate").value="translate hello";</script>
+/translate
+en-en
+{ Error: Model not found.
+    at Request._callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\watson-developer-cloud\lib\requestwrapper.js:102:21)
+    at Request.self.callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:1157:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Gunzip.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:1079:12)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:111:20)
+  code: 404,
+  error: 'Model not found.',
+  'x-global-transaction-id': 'ffea405d5bcb68cee62c8425' }
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/translate
+en-en
+{ Error: Model not found.
+    at Request._callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\watson-developer-cloud\lib\requestwrapper.js:102:21)
+    at Request.self.callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:1157:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Gunzip.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:1079:12)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:111:20)
+  code: 404,
+  error: 'Model not found.',
+  'x-global-transaction-id': '7ecac92c5bcb6945b067dcc1' }
+/translate
+en-es
+<script>document.getElementById("translated").value="Hola mundo";</script><script>document.getElementById("translate").value="Hello world";</script>
+/translate
+en-en
+{ Error: Model not found.
+    at Request._callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\watson-developer-cloud\lib\requestwrapper.js:102:21)
+    at Request.self.callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:1157:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Gunzip.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:1079:12)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:111:20)
+  code: 404,
+  error: 'Model not found.',
+  'x-global-transaction-id': '7ecac92c5bcb6960f8dd71c9' }
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/translate
+en-en
+{ Error: Model not found.
+    at Request._callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\watson-developer-cloud\lib\requestwrapper.js:102:21)
+    at Request.self.callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:1157:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Gunzip.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:1079:12)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:111:20)
+  code: 404,
+  error: 'Model not found.',
+  'x-global-transaction-id': 'ffea405d5bcb6af91347542d' }
+/translate
+en-en
+{ Error: Model not found.
+    at Request._callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\watson-developer-cloud\lib\requestwrapper.js:102:21)
+    at Request.self.callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:1157:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Gunzip.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:1079:12)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:111:20)
+  code: 404,
+  error: 'Model not found.',
+  'x-global-transaction-id': 'ffea405d5bcb6b06e6351135' }
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/translate
+en-en
+es
+{ Error: Model not found.
+    at Request._callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\watson-developer-cloud\lib\requestwrapper.js:102:21)
+    at Request.self.callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:1157:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Gunzip.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:1079:12)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:111:20)
+  code: 404,
+  error: 'Model not found.',
+  'x-global-transaction-id': '7ecac92c5bcb6b4c15aeb50d' }
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/translate
+en
+en-en
+{ Error: Model not found.
+    at Request._callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\watson-developer-cloud\lib\requestwrapper.js:102:21)
+    at Request.self.callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:1157:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Gunzip.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:1079:12)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:111:20)
+  code: 404,
+  error: 'Model not found.',
+  'x-global-transaction-id': '7ecac92c5bcb6bf515b1cdfd' }
+/translate
+en
+en-es
+<script>document.getElementById("translated").value="hola";</script><script>document.getElementById("translate").value="hola";</script>
+/translate
+en
+en-en
+{ Error: Model not found.
+    at Request._callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\watson-developer-cloud\lib\requestwrapper.js:102:21)
+    at Request.self.callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:1157:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Gunzip.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:1079:12)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:111:20)
+  code: 404,
+  error: 'Model not found.',
+  'x-global-transaction-id': 'ffea405d5bcb6c07e6386725' }
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/translate
+undefined
+undefined-en
+{ Error: Model not found.
+    at Request._callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\no
+de_modules\watson-developer-cloud\lib\requestwrapper.js:102:21)
+    at Request.self.callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_serve
+r\node_modules\request\request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\
+node_modules\request\request.js:1157:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Gunzip.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\n
+ode_modules\request\request.js:1079:12)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:111:20)
+  code: 404,
+  error: 'Model not found.',
+  'x-global-transaction-id': '7ecac92c5bcb6c61b07123c1' }
+/translate
+undefined
+undefined-en
+{ Error: Model not found.
+    at Request._callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\watson-developer-cloud\lib\requestwrapper.js:102:21)
+    at Request.self.callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:1157:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Gunzip.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:1079:12)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:111:20)
+  code: 404,
+  error: 'Model not found.',
+  'x-global-transaction-id': 'ffea405d5bcb6c88134dd44d' }
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/translate
+undefined
+undefined-en
+{ Error: Model not found.
+    at Request._callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\watson-developer-cloud\lib\requestwrapper.js:102:21)
+    at Request.self.callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:1157:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Gunzip.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:1079:12)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:111:20)
+  code: 404,
+  error: 'Model not found.',
+  'x-global-transaction-id': 'ffea405d5bcb6ec31359443d' }
+es
+/translate
+undefined
+undefined-en
+{ Error: Model not found.
+    at Request._callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\watson-developer-cloud\lib\requestwrapper.js:102:21)
+    at Request.self.callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:1157:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Gunzip.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:1079:12)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:111:20)
+  code: 404,
+  error: 'Model not found.',
+  'x-global-transaction-id': 'ffea405d5bcb6ed0f6bff819' }
+es
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/translate
+C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\app.js:42
+                                 parmsId, langIdFunc
+                                          ^
+
+ReferenceError: langIdFunc is not defined
+    at IncomingMessage.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\app.js:42:16)
+    at emitNone (events.js:106:13)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/translate
+/translate
+undefined
+undefined-en
+es
+{ Error: Model not found.
+    at Request._callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\watson-developer-cloud\lib\requestwrapper.js:102:21)
+    at Request.self.callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:1157:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Gunzip.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:1079:12)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:111:20)
+  code: 404,
+  error: 'Model not found.',
+  'x-global-transaction-id': 'ffea405d5bcb708ae64939d5' }
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/translate
+undefined
+undefined-en
+{ Error: Model not found.
+    at Request._callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\watson-developer-cloud\lib\requestwrapper.js:102:21)
+    at Request.self.callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:1157:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Gunzip.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:1079:12)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:111:20)
+  code: 404,
+  error: 'Model not found.',
+  'x-global-transaction-id': '7ecac92c5bcb715f15ccb4ed' }
+es
+/translate
+undefined
+undefined-en
+{ Error: Model not found.
+    at Request._callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\watson-developer-cloud\lib\requestwrapper.js:102:21)
+    at Request.self.callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:1157:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Gunzip.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:1079:12)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:111:20)
+  code: 404,
+  error: 'Model not found.',
+  'x-global-transaction-id': '7ecac92c5bcb716ce9e85a95' }
+es
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\app.js:79
+        }
+        ^
+
+SyntaxError: missing ) after argument list
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/translate
+/translate
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/translate
+es
+es
+es-es
+{ Error: Model not found.
+    at Request._callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\watson-developer-cloud\lib\requestwrapper.js:102:21)
+    at Request.self.callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:1157:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Gunzip.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:1079:12)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:111:20)
+  code: 404,
+  error: 'Model not found.',
+  'x-global-transaction-id': 'ffea405d5bcb8bb713d76fbd' }
+/translate
+es
+es
+es-es
+{ Error: Model not found.
+    at Request._callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\watson-developer-cloud\lib\requestwrapper.js:102:21)
+    at Request.self.callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:1157:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Gunzip.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:1079:12)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:111:20)
+  code: 404,
+  error: 'Model not found.',
+  'x-global-transaction-id': '7ecac92c5bcb8c09ea4f7385' }
+
+imaan@DESKTOP-4MM97Q3 MINGW64 /c/Imaan/Big Red Hacks 2018/demo_simple_node_server (master)
+$ node app.js
+Listening at http://localhost:4000
+/translate
+es
+es
+es-es
+{ Error: Model not found.
+    at Request._callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\watson-developer-cloud\lib\requestwrapper.js:102:21)
+    at Request.self.callback (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:1157:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Gunzip.<anonymous> (C:\Imaan\Big Red Hacks 2018\demo_simple_node_server\node_modules\request\request.js:1079:12)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:111:20)
+  code: 404,
+  error: 'Model not found.',
+  'x-global-transaction-id': 'ffea405d5bcb8c225180b807' }
+/translate
+es
+es
+es-en
+/translate
+en
+en
+en-es
+/translate
+es
+es
+es-en
+

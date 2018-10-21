@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+
+body {
+  background: #000000 ;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 600;
+  border: 3px solid #fff;
+  padding: 10px 20px;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-family: "Lucida Console";
+  font-style: italic;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+  height: 100vh;
+}
+
+#result {
+  font-size: 36px;
+  color: #fff;
+}
+
+#ans{
+  color: #fff;
+  padding: 20px;
+  font-size: 26px;
+  background: transparent;
+  border: 0; 
+}
+
+#ans:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
+.boxed_input{
+  border-radius: 15px 50px;
+  border-style: inset;
+  background-color: #2874A6;
+  color: white;
+  height: 170px;
+  width: 280px;
+  align-self: center;
+}
+
+.boxed_submit{
+  border-radius: 10px, 20px, 15px;
+  border-width:5px;
+  border-color:white;
+  background-color: black;
+  border-style: outset;
+  color:white;
+  align-self: : center;
+  height:30px;
+  width:50px;
+}
+
+.boxed_output{
+  border-radius: 15px 50px;
+  border-style: double;
+  background-color: #3CB371;
+  color: white;
+  height: 170px;
+  width:750px;
+  align-self: center;
+}
