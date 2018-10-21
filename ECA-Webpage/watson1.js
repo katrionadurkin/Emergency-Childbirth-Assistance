@@ -112,11 +112,8 @@ var server = http.createServer(function(req,res) {
 													console.log('error:', err);	
 												}
 												else{
-													console.log(response.output["generic"][1]["options"]);
 													var html = "<script>";
-													html += "document.getElementById(\"response\").value = \""+response.output["text"][0]+" ";
-													html += response.output["generic"][1]["title"];
-													html += response.output["generic"][1]["options"][0]["label"]+", "+response.output["generic"][1]["options"][1]["label"]+"\";";
+													html += "document.getElementById(\"response\").value = \""+response.output["text"][0]+"\";";
 													html += "document.getElementById(\"chatbox\").value = \""+data["chatbox"]+"\";</script>";
 													console.log(html);
 													res.write(html);
